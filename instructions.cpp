@@ -10,4 +10,6 @@
 //W/w: up,
 //A/a: left,
 //S/s: down,
-//D/d: right
+//D/d: right,
+//X/x: stop,
+//M/m: terminate game
