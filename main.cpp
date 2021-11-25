@@ -83,6 +83,9 @@ void Input()
 		case 's':
 			dir = eDirecton::DOWN;
 			break;
+		case 'x':
+			dir = eDirecton::STOP;
+			break;
 		case 'm':
 			gameOver = true;
 			break;
@@ -97,6 +100,9 @@ void Input()
 			break;
 		case 'S':
 			dir = eDirecton::DOWN;
+			break;
+		case 'X':
+			dir = eDirecton::STOP;
 			break;
 		case 'M':
 			gameOver = true;
@@ -163,7 +169,7 @@ int main()
 		Draw();
 		Input();
 		Logic();
-		Sleep(50);
+		Sleep(10);
 		if (score < 0)
 		{
 			gameOver = true;
